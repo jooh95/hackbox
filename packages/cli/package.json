@@ -1,0 +1,20 @@
+{
+  "name": "@hackbox/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "hackbox": "./dist/index.js"
+  },
+  "scripts": {
+    "cli": "tsx src/index.ts",
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@hackbox/core": "^0.1.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "tsx": "^4.19.1"
+  }
+}

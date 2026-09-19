@@ -1,0 +1,19 @@
+{
+  "name": "hackbox",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev -w @hackbox/server",
+    "dev:web": "npm run dev -w @hackbox/web",
+    "dev:local-target": "npm run dev -w @hackbox/local-target",
+    "cli": "npm run cli -w @hackbox/cli --",
+    "typecheck": "tsc -b packages/core packages/server packages/cli packages/local-target"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.1"
+  }
+}

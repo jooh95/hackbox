@@ -1,0 +1,19 @@
+{
+  "name": "@hackbox/core",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@daytona/sdk": "^0.214.0",
+    "dotenv": "^16.4.5",
+    "marked": "^18.0.13",
+    "puppeteer-core": "^23.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5"
+  }
+}
